@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.green,
       ),
-      home: const MyHomePage(title: 'Ultracycling'),
+      home: const MyHomePage(title: 'ultraciclismo'),
     );
   }
 }
@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         centerTitle: true,
         title: Text(widget.title,
-            style: TextStyle(fontSize: 32, color: Colors.white)),
+            style: const TextStyle(fontSize: 32, color: Colors.white)),
         automaticallyImplyLeading: false,
         // ignore: prefer_const_literals_to_create_immutables
         actions: [

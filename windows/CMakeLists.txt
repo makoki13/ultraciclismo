@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(ultracycling LANGUAGES CXX)
+project(ultraciclismo LANGUAGES CXX)
 
-set(BINARY_NAME "ultracycling")
+set(BINARY_NAME "ultraciclismo")
 
 cmake_policy(SET CMP0063 NEW)
 
